@@ -1,7 +1,16 @@
-import app from './app'
 import express from 'express'
+import app from './app'
 import path from 'path'
-const port = 3004
+import db from './database'
+const port = process.env.NODE_ENV || 3004
+
+
+db.connect()
+
+
+
+
+
 
 
 if (process.env.NODE_ENV === "production") {
