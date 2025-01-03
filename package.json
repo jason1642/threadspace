@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "async": "^3.2.6",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "lodash": "^4.17.21",
@@ -20,7 +21,9 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/async": "^3.2.24",
     "@types/express": "^5.0.0",
+    "@types/lodash": "^4.17.13",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
